@@ -15,7 +15,7 @@ class ExpenseViewModel {
     
         // fonction d'ajout de dépense
         func addExpense(amount: Double, category : ExpenseCategory, date:Date, note: String?){
-            let expense:Expense = Expense(amount: ammount, category: category, date: date, note: note)
+            let expense:Expense = Expense(amount: amount, category: category, date: date, note: note)
             expenses.append(expense)
     }
     

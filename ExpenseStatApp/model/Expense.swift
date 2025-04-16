@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Expense: Indentifiable, Codable {
+struct Expense: Identifiable, Codable {
     var id: UUID = UUID()
     var amount: Double
     var category: ExpenseCategory
@@ -16,12 +16,12 @@ struct Expense: Indentifiable, Codable {
 }
 
 enum ExpenseCategory: String, CaseIterable, Codable, Identifiable {
-        case food = "🍔 Alimentation"
-        case transport = "🚌 Transport"
-        case leisure = "🎮 Loisir"
-        case bill = "💡 Factures"
-        case health = "🩺 Santé"
-        case other  = "📦 Autre"
+    case food = "🍔 Alimentation"
+    case transport = "🚌 Transport"
+    case leisure = "🎮 Loisir"
+    case bill = "💡 Factures"
+    case health = "🩺 Santé"
+    case other  = "📦 Autre"
     
     var id: String{self.rawValue}
     
