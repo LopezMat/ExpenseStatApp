@@ -17,6 +17,7 @@
 		7DEDF7312DAF9BED006E99C5 /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDF7302DAF9BED006E99C5 /* ExpenseViewModel.swift */; };
 		7DEDF7332DAFAA0B006E99C5 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDF7322DAFAA0B006E99C5 /* AddExpenseView.swift */; };
 		7DEDF7352DAFB16F006E99C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDF7342DAFB16F006E99C5 /* ContentView.swift */; };
+		7DEDF7372DAFD481006E99C5 /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDF7362DAFD481006E99C5 /* StatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		7DEDF7302DAF9BED006E99C5 /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
 		7DEDF7322DAFAA0B006E99C5 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 		7DEDF7342DAFB16F006E99C5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DEDF7362DAFD481006E99C5 /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				7DEDF7342DAFB16F006E99C5 /* ContentView.swift */,
 				7DEDF7322DAFAA0B006E99C5 /* AddExpenseView.swift */,
+				7DEDF7362DAFD481006E99C5 /* StatView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DEDF7372DAFD481006E99C5 /* StatView.swift in Sources */,
 				7DEDF72D2DAF9963006E99C5 /* Expense.swift in Sources */,
 				7DEDF7352DAFB16F006E99C5 /* ContentView.swift in Sources */,
 				7DEDF7332DAFAA0B006E99C5 /* AddExpenseView.swift in Sources */,

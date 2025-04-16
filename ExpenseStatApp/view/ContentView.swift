@@ -31,8 +31,17 @@ struct ContentView: View {
             }
             .navigationTitle("💸 Mes dépenses")
             .toolbar{
-                NavigationLink(destination: AddExpenseView(expenseVM: expenseVM)){
-                    Image(systemName: "plus")
+                ToolbarItem(placement: .topBarLeading){
+                    NavigationLink(destination: StatsView(expenseVM: expenseVM)){
+                        Image(systemName: "chart.pie.fill")
+                    }
+                }
+                
+                ToolbarItem(placement: .topBarTrailing){
+                    NavigationLink(destination: AddExpenseView(expenseVM: expenseVM)){
+                        Image(systemName: "plus")
+                }
+                
                 }
             }
         }
