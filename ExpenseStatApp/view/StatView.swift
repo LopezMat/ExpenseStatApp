@@ -37,7 +37,7 @@ struct StatsView: View {
                         .foregroundStyle(by: .value("Catégorie", item.category.rawValue))
                         .cornerRadius(5)
                         .annotation(position: .overlay){
-                            Text("\(item.total, specifier: "ù.2f") €")
+                            Text("\(item.total, specifier: "%.2f") €")
                                 .font(.caption)
                                 .foregroundStyle(.white)
                                 .bold()
